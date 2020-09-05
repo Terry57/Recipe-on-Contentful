@@ -1,0 +1,140 @@
+$color-primary:linear-gradient(to right,rgb(45, 105, 233) 0%,rgb(187, 50, 26) 100%);
+$color-secondary:linear-gradient(to right,rgb(187, 50, 26) 0%,rgb(45, 105, 233) 100%);
+$color-font: rgb(197, 229, 247);
+
+h1 {
+    text-shadow:  rgba(25, 33, 34, 0.767) .5px .5px 5px;
+    text-align: center;
+    padding: 10px,10px;
+    box-shadow: rgba(80, 71, 54, 0.877) 10px 10px 10px;
+    border-radius: 20px;
+    color:$color-font;
+    background-image:$color-secondary;    
+                       
+}
+body {
+    background-image: $color-primary;
+    font-family: 'Jua', sans-serif;
+    margin: 2em;
+    font-weight: bold,100em;    
+       }
+.album {
+    padding: 1em;
+}
+h2,ul,a {
+    color:$color-font;
+    text-align: center;
+    font-size: 1.4em;  
+    text-shadow:  rgba(25, 33, 34, 0.767) .5px .5px 5px;
+  }
+h3 {
+    color: rgb(0, 0, 0);
+    background-image:$color-secondary; 
+    padding: 10px;
+    box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2em,2em;    
+}  
+table {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    border: solid 1px 230, 149, 73, 0.656; 
+    }
+th,td,tr {
+    border: solid 2.5px rgba(90, 185, 209, 0.986);
+    color: rgb(0, 0, 0);
+}
+.card-body
+{   
+    border-radius: 20px;
+    min-height: 384px; 
+    background-image:$color-secondary;
+}
+ .btn-group {
+     background-color: #f70202;
+     color: white;     
+     border-radius: 20px;     
+ }
+ .container {
+     border-radius: 20px;
+     padding-top: 1.5em;
+ }
+.row {
+    border-radius: 20px;
+}
+.ion-social-reddit-outline {
+    border-radius: 50%;
+    background-color: rgba(102, 150, 197, 0.856);
+    box-shadow: dimgray 5px 5px 5px;
+}
+.card-img-top,img.img-thumbnail {
+    border-radius: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.d-flex justify-content-between align-items-center {
+    color: white;
+    
+}
+.btn-outline-secondary {
+    color: #cbf0f3fd;
+    border-color: #6c757d00;
+}
+.text-muted {
+    color: rgb(0, 0, 0)!important;
+}
+.btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+    color: rgb(0, 0, 0);
+    background-color: #d33b3b;
+    border-color: #14161800;    
+}
+.btn {
+    border-radius: 20px;    
+}
+.btn-outline-secondary:hover {
+    color: rgb(24, 16, 16);
+    background-color: #4081e9;
+    border-color: #16191bc4;
+}
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;    
+} 
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgba(230, 149, 73, 0);
+    background-clip: border-box;
+    border: .1px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    box-shadow: rgba(38, 58, 59, 0.623) 10px 10px 10px;
+}
+a {
+    border-radius: 20px;
+}
+.card-text{
+    color:$color-font;
+    text-align: center;
+    font-size: 1em;  
+    text-shadow:  rgba(25, 33, 34, 0.767) .5px .5px 5px;
+}
+p{
+    color:$color-font;
+    text-align: center;
+    font-size: 1.4em;  
+    text-shadow:  rgba(25, 33, 34, 0.767) .5px .5px 5px;
+}
+@media screen and (max-width: 768px) {
+ h1 {
+     font-size: 40px;
+ }
+}
