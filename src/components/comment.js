@@ -7,6 +7,7 @@ export default function Comment({comment}) {
     const tsYear = timestamp.getFullYear()
     return (
         <>
+                <div class="table">
             <p>
                 <img src={"https://api.adorable.io/avatars/120/"+ comment.Visitor + ".png"} alt={comment.Visitor} />
                 <strong>{comment.Visitor} says:</strong>
@@ -17,6 +18,7 @@ export default function Comment({comment}) {
             <p>
                 <small>{tsMonth}/{tsDay}/{tsYear}</small>
             </p>
+            </div>
         </>
     )
 }

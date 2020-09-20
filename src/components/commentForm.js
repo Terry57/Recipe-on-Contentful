@@ -26,17 +26,21 @@ export default function CommentForm({page}) {
 
     return (
         <>
-            <h4>Leave your comment</h4>
+            <h2>Leave your comment</h2>
+            <div class="comment">
 
             <form onSubmit={ e => handleCommentSubmission(e) }>
                 <label htmlFor="visitor">Your Name</label>
+                
                 <input type="text" name="visitor" value={visitor} required onChange={e => setVisitor(e.target.value)} />
+                <br/>
 
                 <label htmlFor="message">Your Comments</label>
                 <textarea name="message" value={message} required onChange={e => setMessage(e.target.value)}></textarea>
-
+                <br/>
                 <button className="btn btn-primary">Submit</button>
             </form>
+            </div>
         </>
     )
 }
